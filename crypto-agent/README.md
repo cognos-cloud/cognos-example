@@ -34,7 +34,7 @@ WATCHED_WALLETS = [
 ## Add wallets at runtime (no redeploy)
 
 ```bash
-curl -X POST https://api.cognos.ai/v1/agents/crypto-agent/run \
+curl -X POST https://api.cognoscloud.xyz/v1/agents/crypto-agent/run \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -d '{"input": "add wallet 0xAb5801a7D398351b8bE11C439e05C5B3259aeC9B"}'
 ```

@@ -30,7 +30,7 @@ After deploy, your agent gets a live endpoint. Add it to your GitHub repo:
 1. Go to **Settings → Webhooks → Add webhook**
 2. Set the payload URL:
    ```
-   https://api.cognos.ai/v1/agents/github-agent/webhook/github
+   https://api.cognoscloud.xyz/v1/agents/github-agent/webhook/github
    ```
 3. Content type: `application/json`
 4. Events: **Pull requests**, **Issues**
